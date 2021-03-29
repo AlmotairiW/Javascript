@@ -21,9 +21,8 @@ function push(arr, newItem){
         return the nth-to-last element.
 */
 
-function nthToLast(arr, int){'
-\        '
-    return arr[arr.length -1 - int];
+function nthToLast(arr, int){
+        return arr[arr.length -1 - int];
     
 }
 var ar = [1,2,3];
