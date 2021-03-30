@@ -6,21 +6,8 @@
 
 function pop(arr)
 {
-   /* let item = arr.slice(arr.length-1)
-    for(var x =0; x < arr.length; x++)
-    {
-        console.log(arr[x]);
-    }
-    return item;*/
-    
-
     var retValue = arr[arr.length - 1];
     arr.length=arr.length-1;
-
-    /*for(var x =0; x < arr.length; x++)
-    {
-        console.log(arr[x]);
-    }*/
     return retValue;
 
 }
@@ -48,5 +35,5 @@ function pop(arr)
 var ar = [1,2,3,4];
 var ret = pop(ar);
 console.log(ret);
-var ret2 = search(ar,6);
+var ret2 = search(ar,2);
 console.log(ret2);
