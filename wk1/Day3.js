@@ -7,6 +7,7 @@
 function pop(arr)
 {
     var retValue = arr[arr.length - 1];
+    delete arr[arr.length - 1];
     arr.length=arr.length-1;
     return retValue;
 
