@@ -1,4 +1,4 @@
-
+    console.log("Yo");
     var world = [
     [2,2,2,2,2,2,2,2,2,2],
     [2,0,1,2,1,1,1,1,0,2],
@@ -36,7 +36,6 @@
             }
             output += "</div>";
         }
-        console.log(output);
         document.getElementById('world').innerHTML = output;
         
     }
