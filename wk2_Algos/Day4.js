@@ -19,14 +19,13 @@ function removeAt(arr, idx) {
     
     if(idx > arr.length - 1 || idx < 0)
         return null;
-    
-    var popped = arr[idx];
+
     for( let i = idx; i < arr.length - 1; i ++)
     {
         arr[i] = arr[i+1];
     }
-    arr.pop();
-    return popped;
+    return arr.pop();
+    
 }
 // const arr3 = ["a", "b", "c"]
 //  console.log(removeAt(arr3, 2));
