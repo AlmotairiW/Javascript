@@ -13,7 +13,6 @@
 
 // const twoDimArr2 = [[1], [2], [3]]
 // const expected2 = [1, 2, 3]
-
 // const twoDimArr3 = [[], [], [10, 20]]
 // const expected3 = [10, 20]
 
